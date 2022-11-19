@@ -13,8 +13,8 @@ labels:
 
 rules:
   - name: check-for-file-name
-    description: Checks for the correct name
-    spec: $hasFileName($sprintf("public/data/%v.json", [$author()]))
+    description: Checks for the correct author
+    spec: $hasFileName($sprintf("data/%v.json", [$author()]))
 
   - name: modifies-only-one-file
     spec: $fileCount() == 1
@@ -29,12 +29,15 @@ workflows:
       - rule: $size() <= 10
         extra-actions:
           - $addLabel("small")
+          - $removeLabels(["medium", "large"])
       - rule: $size() > 10 && $size() <= 30
         extra-actions:
-          - $addLabel("medium")
+          - $addLabel("medium") 
+          - $removeLabels(["small", "large"])
       - rule: $size() > 30
         extra-actions:
           - $addLabel("large")
+          - $removeLabels(["small", "medium"])
 
   - name: first-time-contributor
     always-run: true
@@ -59,7 +62,7 @@ workflows:
   - name: add-label-for-chore-profile-addition
     always-run: true
     if:
-      - rule: $hasFilePattern("public/data/**")
+      - rule: $hasFilePattern("data/**")
     then:
       - '$addLabel("✍ chore: profile addition")'
 
@@ -70,3 +73,4 @@ workflows:
       - rule: check-for-profile-addition
     then:
       - '$addLabel("LGTM")'
+

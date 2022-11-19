@@ -1,45 +1,45 @@
-## [0.73.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.3...v0.73.4) (2022-09-07)
+## [1.7.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.5...v1.7.6) (2022-11-13)
 
 
 ### Bug Fixes
 
-* minor typo in ankushtripathii.json ([#1723](https://github.com/EddieHubCommunity/LinkFree/issues/1723)) ([02a488b](https://github.com/EddieHubCommunity/LinkFree/commit/02a488b33e56461e628c756f2855561aaea44db0))
+* removeLabels in reviewpad ([#2230](https://github.com/EddieHubCommunity/LinkFree/issues/2230)) ([eeab421](https://github.com/EddieHubCommunity/LinkFree/commit/eeab4217b487a24c6b0a6c9b56d0e3711e7250f7))
 
 
 
-## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
-
-
-### Bug Fixes
-
-* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
-
-
-
-## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
+## [1.7.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.4...v1.7.5) (2022-11-13)
 
 
 ### Bug Fixes
 
-* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
+* failing tests ([8675cef](https://github.com/EddieHubCommunity/LinkFree/commit/8675cefe71bfa90a9e026bc272b4eb65b6438ad8))
 
 
 
-## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
+## [1.7.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.3...v1.7.4) (2022-11-13)
 
 
 ### Bug Fixes
 
-* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
+* Storybook example link ([#2227](https://github.com/EddieHubCommunity/LinkFree/issues/2227)) ([1f56a01](https://github.com/EddieHubCommunity/LinkFree/commit/1f56a01257dcda3dfe5665e04ba0b53be00488a7))
 
 
 
-# [0.73.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.5...v0.73.0) (2022-09-02)
+## [1.7.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.2...v1.7.3) (2022-11-12)
 
 
-### Features
+### Bug Fixes
 
-* linkfree-cli support ([#1695](https://github.com/EddieHubCommunity/LinkFree/issues/1695)) ([d553c96](https://github.com/EddieHubCommunity/LinkFree/commit/d553c965568ebc6dfa8fe3a8b004095fbb9fe3ba))
+* horizontal scroll ([#2219](https://github.com/EddieHubCommunity/LinkFree/issues/2219)) ([e7f682d](https://github.com/EddieHubCommunity/LinkFree/commit/e7f682dc4d702db71ed45327e5e098700b9f6610))
+
+
+
+## [1.7.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.1...v1.7.2) (2022-11-12)
+
+
+### Bug Fixes
+
+* invalid data file location ([88baea2](https://github.com/EddieHubCommunity/LinkFree/commit/88baea2149c5aef1af97bc37b771860a21303e9c))
 
 
 
